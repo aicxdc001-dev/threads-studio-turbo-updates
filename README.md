@@ -1,11 +1,15 @@
 # Threads Studio Turbo
 
-Kênh cập nhật riêng cho Threads Studio Turbo trên Windows 64-bit.
+Bản mới nhất: **3.0.1**.
 
-Bản hiện tại: **3.0.1**. Khách dùng Turbo 3.0.0 mở file **ThreadsStudio-Turbo-CapNhat-3.0.1.exe** trong Releases và chọn đúng thư mục Turbo để nâng cấp một lần. Khách dùng bản 3.0.1 chưa bật cập nhật online cũng có thể dùng cùng file này.
+## Đang dùng Turbo 3.0.0
 
-Sau đó tool tự kiểm tra bản mới khi mở; khi có bản mới, chọn **Cập nhật ngay**. Không cần tài khoản GitHub để tải. Mỗi tệp được xác minh SHA-256; tool sao lưu và khôi phục khi cài đặt hoặc khởi động bản mới thất bại.
+Trong tool chọn **Tùy chọn → Kiểm tra cập nhật → Cập nhật ngay**. Tool tự tải, kiểm tra SHA-256, sao lưu, cài và mở lại 3.0.1. Giữ nguyên key, API key, đăng nhập, bố cục và dữ liệu. Không cần file kích hoạt riêng hay chọn lại thư mục.
 
-Chỉ thay EXE và BUILD-INFO.json. Giữ nguyên dữ liệu, đăng nhập, cấu hình và key. Gói này dùng lại Chromium, VieNeu và media của bộ Turbo đã cài; đây không phải bộ cài đầy đủ.
+Các bản 3.0.0 cũ được phục vụ bằng gói tương thích ở kênh cũ. Sau khi lên 3.0.1, tool dùng kênh Turbo này và tự kiểm tra bản mới khi mở. Khi có bản mới, bấm Cập nhật ngay.
 
-Kênh này dành riêng cho Turbo 3.0.0/3.0.1, tách khỏi kênh VieNeu 2.x. Không đăng dữ liệu, cookie, API key hoặc công cụ cấp key lên kho này.
+## Trường hợp cần file hỗ trợ
+
+Bản 3.0.1 cũ chưa bật cập nhật online hoặc bộ cài đã bị chỉnh kênh có thể dùng file **ThreadsStudio-Turbo-CapNhat-3.0.1.exe** trong Releases. Đóng tool, chọn thư mục đang dùng và cập nhật một lần. Đây là phương án hỗ trợ; Turbo 3.0.0 chính thức có thể cập nhật trực tiếp bằng nút trong tool.
+
+Các tệp trong Releases là bản cập nhật cho bộ Turbo đã cài đầy đủ, dùng lại Chromium và VieNeu hiện có. Không cần tài khoản GitHub để tải. Không đăng dữ liệu cá nhân, cookie, API key hoặc công cụ cấp key lên kho này.
